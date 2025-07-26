@@ -42,3 +42,21 @@ header {
 .bg-color-custom {
   background: linear-gradient(to right, #26c6da, #00acc1);
 }
+
+.mw-75 {
+  max-width: 100%;
+}
+
+/* for tablet  */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .mw-75 {
+    min-width: 90%;
+  }
+}
+
+/* for desktop  */
+@media screen and (min-width: 1025px) {
+  .mw-75 {
+    max-width: 70%;
+  }
+}
